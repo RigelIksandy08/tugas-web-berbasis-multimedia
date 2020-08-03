@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <style>
+        body{
+            /* overflow: hidden; */
+            background: url();
+            background-size: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .row{
+            margin-top:100px;
+        }
+        i{
+            font-size: 20px;
+        }
+        .play-btn{
+            width: 50px;
+            position: relative;
+            top: -50%;
+            cursor: pointer;
+            /* transition: 1s; */
+            opacity: 0%;
+        }
+        .modal-content{
+            background:transparent;
+            border: none;
+        }
+        .col-md-4:hover .play-btn{
+            opacity: 0;
+        }
+        h1{
+            font-family: serif;
+            margin-top: 80px;
+        }
+    </style>
+    
+    
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="navbar-brand">
+            <h2 class="text-center">CONCerto</h2>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active mr-2">
+                    <a class="nav-link" href="vaudio.html">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="fas fa-home mr-2"> Home</i>
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-item active mr-2">
+                    <a class="nav-link" href="video.html">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="fas fa-video mr-2"> Video</i>
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-item active mr-2">
+                    <a class="nav-link" href="music.html">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="fas fa-music mr-2"> Music</i>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container text-center">
+        <h1>VIDEO LIST</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="LL Postah/Aqours_First_Love_Live!__Step!_ZERO_to_ONE__BD_BOX_Cover.png" width="100%" data-toggle="modal" data-target="#play-video-1">
+            </div>
+            <div class="col-md-4">
+                <img src="LL Postah/Aqours_2nd_Love_Live!_HAPPY_PARTY_TRAIN_TOUR_Poster.jpg" width="100%" data-toggle="modal" data-target="#play-video-2">
+            </div>
+            <div class="col-md-4">
+                <img src="LL Postah/Aqours_3rd_LoveLive!_Tour_～WONDERFUL_STORIES～_Poster.png" width="100%" data-toggle="modal" data-target="#play-video-3">
+                <img src="play-button.png" class="play-btn rounded-circle" data-toggle="modal" data-target="#play-video-3">
+            </div>
+            <div class="col-md-4">
+                <img src="LL Postah/Aqours_4th_LoveLive!_～Sailing_to_the_Sunshine～_Poster.jpg" width="100%" data-toggle="modal" data-target="#play-video-4">
+            </div>
+            <div class="col-md-4">
+                <img src="LL Postah/Μ's_Final_LoveLive!__µ'sic_Forever♪♪♪♪♪♪♪♪♪__Memorial_BOX.jpg" width="100%" data-toggle="modal" data-target="#play-video-6">
+            </div>
+            <div class="col-md-4">
+                <img src="LL Postah/Aqours_5th_LoveLive!_～Next_SPARKLING!!～_Poster.jpg" width="100%" data-toggle="modal" data-target="#play-video-5">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="play-video-1">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <video width="100%" controls>
+                        <source src="Love Live/[Team ONIBE] Aqours First Love Live! ~Step! ZERO to ONE~ [BD][1080p-FLAC]/[Team ONIBE] Aqours First Love Live! ~Step! ZERO to ONE~ Behind the Scenes! [BD][1080p-FLAC][43DBF4B5].mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="play-video-2">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <video width="100%" controls>
+                        <source src="Love Live/[Team ONIBE] Aqours 2nd Love Live! HAPPY PARTY TRAIN TOUR [BD 1080p]/[Team ONIBE] Aqours 2nd Love Live! HAPPY PARTY TRAIN TOUR Behind the Scenes [BD 1080p] [FF898FB4].mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="play-video-3">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <video width="100%" controls>
+                        <source src="Love Live/Aqours 3rd Live - WONDERFUL STORIES/[FumeiRaws] Making of Aqours 3rd LoveLive! Tour ~WONDERFUL STORIES~ (BD 1280x720 x264 10bit AAC) [FDCE2CF3].mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="play-video-4">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <video width="100%" controls>
+                        <source src="Love Live/Aqours 4th LoveLive! ～Sailing to the Sunshine～/[Idol Projects] Aqours 4th LoveLive ~Sailing to the Sunshine~ BD BTS 720p.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="play-video-5">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <video width="100%" controls>
+                        <source src="Love Live/Aqours 5th Live - Next SPARKLING!!/[FumeiMusic] Aqours 5th LoveLive! ~Next SPARKLING!!~ - Making Movie (BD 1280x720 x264 10bit AAC) [D09A1833].mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="play-video-6">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <video width="100%" controls>
+                        <source src="Love Live/Love Live! μ's Final LoveLive! ~μ’sic Forever ♪♪♪♪♪♪♪♪♪~/[Team ONIBE & LoveEcho!] Love Live! μ's Final LoveLive! ~μ’sic Forever ♪♪♪♪♪♪♪♪♪~ [Day02] [720p].mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
